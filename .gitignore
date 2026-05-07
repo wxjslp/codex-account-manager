@@ -1,0 +1,28 @@
+# Build output
+bin/
+obj/
+dist/
+
+# User and IDE state
+.vs/
+.vscode/
+*.user
+*.suo
+*.rsuser
+
+# Logs and generated diagnostics
+*.log
+app.pp.xml
+restore-app.log
+
+# Local runtime / orchestration state
+.omx/
+scratch/
+
+# Archives and package artifacts
+*.zip
+*.nupkg
+
+# Keep the local NuGet source directory present without committing cached packages.
+!local-nuget/
+!local-nuget/.gitkeep
