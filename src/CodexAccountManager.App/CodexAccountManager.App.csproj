@@ -3,6 +3,10 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <AssemblyName>CodexAccountManager</AssemblyName>
+    <Product>Codex 多账号管理器</Product>
+    <Company>清远市启宇科技有限公司</Company>
+    <Copyright>Copyright (c) 清远市启宇科技有限公司</Copyright>
+    <Description>官方网站：http://www.qyqiyu.com/；使用反馈：wxj124@qq.com</Description>
     <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>

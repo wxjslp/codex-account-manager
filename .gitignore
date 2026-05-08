@@ -1,7 +1,9 @@
 # Build output
 bin/
 obj/
-dist/
+dist/*
+!dist/
+!dist/CodexAccountManager-win-x64-portable.zip
 
 # User and IDE state
 .vs/
@@ -17,10 +19,13 @@ restore-app.log
 
 # Local runtime / orchestration state
 .omx/
+docs/
 scratch/
+tmp/
 
 # Archives and package artifacts
 *.zip
+!dist/CodexAccountManager-win-x64-portable.zip
 *.nupkg
 
 # Keep the local NuGet source directory present without committing cached packages.

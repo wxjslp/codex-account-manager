@@ -279,11 +279,9 @@ codex
 ├─ scripts\
 │  ├─ build-and-test.bat
 │  └─ publish-portable.bat
-├─ docs\
-│  ├─ Codex 多账号管理器设计文档.md
-│  └─ 日常命令.md
 ├─ run.bat
 ├─ package.bat
+├─ LICENSE
 └─ README.md
 ```
 
@@ -419,10 +417,15 @@ codex login status
 
 当前软件展示的是 Codex app-server 返回的 rate limit / quota 窗口信息，适合做本地辅助判断。它不是 OpenAI 官方账单页，也不承诺展示精确 credits 余额。
 
-## 相关文档
+## 版权与许可
 
-- [设计文档](docs/Codex%20多账号管理器设计文档.md)
-- [日常命令](docs/日常命令.md)
+版权所有：清远市启宇科技有限公司
+
+官方网站：http://www.qyqiyu.com/
+
+使用反馈：wxj124@qq.com
+
+本项目使用 MIT License 开源，详见 [LICENSE](LICENSE)。
 
 ## 当前状态
 

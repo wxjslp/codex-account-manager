@@ -268,10 +268,24 @@
             </Grid>
         </Grid>
 
-        <InfoBar
-            Grid.Row="2"
-            IsOpen="True"
-            Severity="Informational"
-            Message="{x:Bind ViewModel.StatusText, Mode=OneWay}" />
+        <Grid Grid.Row="2" RowDefinitions="Auto,Auto">
+            <TextBlock
+                Padding="18,8"
+                FontSize="12"
+                Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                HorizontalAlignment="Center"
+                TextAlignment="Center"
+                TextWrapping="Wrap">
+                <Run Text="版权声明：清远市启宇科技有限公司 | 官方网站：" />
+                <Hyperlink NavigateUri="http://www.qyqiyu.com/">http://www.qyqiyu.com/</Hyperlink>
+                <Run Text=" | 使用反馈：" />
+                <Hyperlink NavigateUri="mailto:wxj124@qq.com">wxj124@qq.com</Hyperlink>
+            </TextBlock>
+            <InfoBar
+                Grid.Row="1"
+                IsOpen="True"
+                Severity="Informational"
+                Message="{x:Bind ViewModel.StatusText, Mode=OneWay}" />
+        </Grid>
     </Grid>
 </Window>
